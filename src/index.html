@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head itemscope itemtype="http://schema.org/WebSite">
+    <title itemprop="name">Roberto Entringer Full-stack Web Developer @ Luxembourg</title>
+    <link rel="canonical" href="https://robertoentringer.com" hreflang="en" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Focusing primarily on simplicity, I develop powerful, clean, smart, efficient, responsive websites, themes and plugins"
+    />
+    <meta
+      name="keywords"
+      content="luxembourg, wordpress, simplicity, roberto, entringer, web, developer, freelance, dev, lux, full-stack, front-end, back-end, apps, responsive, applications, webapps"
+    />
+    <meta name="robots" content="index, follow" />
+    <meta name="google-site-verification" content="7CXLLAIXLHIsGpaC_OkflLZETD15jOssonW46kR-uZM" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@rentringer" />
+    <meta name="twitter:creator" content="@rentringer" />
+    <meta property="fb:app_id" content="1398437347146938" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:url" content="https://robertoentringer.com" />
+    <meta property="og:title" content="Roberto Entringer - Web Developer @ Luxembourg" />
+    <meta property="og:site_name" content="Roberto Entringer Web Developer" />
+    <meta
+      property="og:description"
+      content="Focusing primarily on simplicity, I develop powerful, clean, smart, efficient, responsive websites, themes and plugins"
+    />
+    <meta property="og:image" content="assets/imgs/roberto-entringer.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:type" content="website" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/imgs/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/imgs/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/imgs/favicon-16x16.png" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="mask-icon" href="assets/imgs/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="apple-mobile-web-app-title" content="REN" />
+    <meta name="application-name" content="REN" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <style>
+      html {
+        box-sizing: border-box;
+      }
+      *,
+      *:before,
+      *:after {
+        box-sizing: inherit;
+      }
+      *,
+      html,
+      body {
+        padding: 0;
+        margin: 0;
+        font-weight: 400;
+      }
+      html {
+        display: table;
+        table-layout: fixed;
+        width: 100%;
+        height: 100%;
+        background: #000;
+        -webkit-text-size-adjust: 100%;
+      }
+      body,
+      a {
+        color: #eee;
+      }
+      body {
+        font-size: 20px;
+        font-family: monospace, arial;
+        line-height: 1.6;
+        text-align: left;
+        display: table-cell;
+        vertical-align: middle;
+        height: 100%;
+        word-spacing: -2px;
+      }
+      #site {
+        position: relative;
+        z-index: 99;
+        text-shadow: 0 0 1.5em #000;
+        padding: 1em;
+        margin: 0 auto;
+        max-width: 780px;
+      }
+      article {
+        margin: 1.5em 0;
+      }
+      nav a,
+      address span {
+        white-space: nowrap;
+      }
+      h1 a {
+        text-decoration: none;
+      }
+      h1,
+      h2,
+      h3 {
+        font-weight: 400;
+      }
+      h1 {
+        font-size: 2em;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        margin: 0 0 5px;
+        line-height: 1em;
+        letter-spacing: 2px;
+        word-spacing: -10px;
+      }
+      h2 {
+        font-size: 1.17em;
+        margin: 0;
+        line-height: 1.2;
+      }
+      h3 {
+        font-size: 1em;
+      }
+      a {
+        text-decoration: underline;
+      }
+      a:hover {
+        color: #888;
+      }
+      nav {
+        margin: 1em -10px;
+        line-height: 1;
+      }
+      nav a {
+        display: inline-block;
+        padding: 5px;
+        margin: 5px;
+      }
+      .icon {
+        display: inline-block;
+        width: 1em;
+        height: 1em;
+        stroke-width: 0;
+        stroke: currentColor;
+        fill: currentColor;
+      }
+      .icon:hover {
+        fill: #888;
+      }
+      abbr {
+        text-decoration: none;
+      }
+      address {
+        font-style: normal;
+      }
+      video {
+        pointer-events: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -100;
+        -ms-transform: translateX(-50%) translateY(-50%);
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+        animation: fadein 4s;
+        opacity: 0.45;
+      }
+      @media screen and (max-width: 480px) {
+        body {
+          font-size: 1em;
+          box-shadow: none;
+          text-align: left;
+        }
+      }
+      @keyframes fadein {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 0.45;
+        }
+      }
+      .anime {
+        animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+      }
+      @keyframes text-focus-in {
+        0% {
+          filter: blur(12px);
+          opacity: 0;
+        }
+        100% {
+          filter: blur(0);
+          opacity: 1;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker
+          .register("./service-worker.js")
+          .then(function(registration) {
+            console.log("Registration successful, scope is:", registration.scope)
+          })
+          .catch(function(error) {
+            console.log("Service worker registration failed, error:", error)
+          })
+      }
+    </script>
+    <div id="site" itemscope itemtype="http://schema.org/Person" class="anime">
+      <header>
+        <h1 itemprop="name">
+          <a href="https://robertoentringer.com/">
+            <span itemprop="givenName">Roberto</span>
+            <span itemprop="familyName">Entringer</span>
+          </a>
+        </h1>
+        <h2 itemprop="jobTitle">Full-stack Web Developer @ Luxembourg</h2>
+      </header>
+      <main>
+        <article itemprop="description">
+          <h3>Focusing primarily on <strong>simplicity</strong>,</h3>
+          <p>
+            I develop powerful, clean, smart, efficient, responsive websites, themes and plugins.
+          </p>
+          <p>
+            I am practiced in the areas of hosting, mobile responsive development,
+            <a target="_blank" rel="noopener" href="https://wordpress.org/">WordPress</a>,
+            <abbr title="Search engine optimization">SEO</abbr> and Web Apps.
+          </p>
+        </article>
+        <article>
+          <h3>
+            <a
+              class="ga-track"
+              target="_blank"
+              title="CV - Curriculum Vitae - Roberto Entringer"
+              href="assets/docs/ENTRINGER-Roberto-CV.pdf"
+              rel="me"
+              itemprop="sameAs"
+            >
+              Curriculum vitae
+            </a>
+          </h3>
+          <p>
+            <a
+              class="ga-track"
+              title="Email contact - Roberto Entringer"
+              href="mailto:ren@robertoentringer.com"
+              itemprop="email"
+              rel="nofollow"
+            >
+              ren@robertoentringer.com
+            </a>
+          </p>
+        </article>
+      </main>
+      <nav>
+        <link itemprop="url" href="https://robertoentringer.com" />
+        <a
+          class="ga-track"
+          target="_blank"
+          title="CV - Curriculum Vitae - Roberto Entringer"
+          href="assets/docs/ENTRINGER-Roberto-CV.pdf"
+          rel="me"
+          itemprop="sameAs"
+        >
+          <svg class="icon icon-profile">
+            <use xlink:href="#icon-profile"></use>
+            <title>CV - Curriculum Vitae - Roberto Entringer</title>
+          </svg>
+        </a>
+        <a
+          class="ga-track"
+          target="_blank"
+          title="Twitter - Roberto Entringer"
+          href="https://twitter.com/rentringer"
+          rel="me noopener"
+          itemprop="sameAs"
+        >
+          <svg class="icon icon-twitter">
+            <use xlink:href="#icon-twitter"></use>
+            <title>Twitter - Roberto Entringer</title>
+          </svg>
+        </a>
+        <a
+          class="ga-track"
+          target="_blank"
+          title="Linkedin - Roberto Entringer"
+          href="https://www.linkedin.com/in/robertoentringer"
+          rel="me noopener"
+          itemprop="sameAs"
+        >
+          <svg class="icon icon-linkedin">
+            <use xlink:href="#icon-linkedin"></use>
+            <title>Linkedin - Roberto Entringer</title>
+          </svg>
+        </a>
+        <a
+          class="ga-track"
+          target="_blank"
+          title="Github - Roberto Entringer"
+          href="https://github.com/robertoentringer"
+          rel="me noopener"
+          itemprop="sameAs"
+        >
+          <svg class="icon icon-github">
+            <use xlink:href="#icon-github"></use>
+            <title>Github - Roberto Entringer</title>
+          </svg>
+        </a>
+        <a
+          class="ga-track"
+          target="_blank"
+          title="Facebook - Roberto Entringer"
+          href="https://www.facebook.com/robertoentringer"
+          rel="me noopener"
+          itemprop="sameAs"
+        >
+          <svg class="icon icon-facebook">
+            <use xlink:href="#icon-facebook"></use>
+            <title>Facebook - Roberto Entringer</title>
+          </svg>
+        </a>
+        <a
+          class="ga-track"
+          target="_blank"
+          title="Stack Overflow  - Roberto Entringer"
+          href="https://stackoverflow.com/cv/rentringer"
+          rel="me noopener"
+          itemprop="sameAs"
+        >
+          <svg class="icon icon-stackoverflow">
+            <use xlink:href="#icon-stackoverflow"></use>
+            <title>Stack Overflow - Roberto Entringer</title>
+          </svg>
+        </a>
+        <a
+          class="ga-track"
+          target="_blank"
+          title="Wordpress - Roberto Entringer"
+          href="https://profiles.wordpress.org/robertoentringer"
+          rel="me noopener"
+          itemprop="sameAs"
+        >
+          <svg class="icon icon-wordpress">
+            <use xlink:href="#icon-wordpress"></use>
+            <title>Wordpress - Roberto Entringer</title>
+          </svg>
+        </a>
+      </nav>
+      <footer>
+        <p>
+          &copy; <span itemprop="worksFor">Kommen Web</span> Roberto Entringer<br />
+          <abbr title="Taxe sur la valeur ajoutée">TVA</abbr> :
+          <span itemprop="vatID">LU24804187</span>
+          <abbr title="Registre de commerce et des sociétés">RCS</abbr> : A38840
+        </p>
+        <address itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+          <span itemprop="streetAddress">11, rue de la Montagne</span>,
+          <span itemprop="postalCode">L-8537</span>
+          <span itemprop="addressLocality">Hostert</span>,
+          <span itemprop="addressCountry">Luxembourg</span>
+        </address>
+      </footer>
+    </div>
+    <!-- https://icomoon.io -->
+    <svg
+      style="position: absolute; width: 0; height: 0; overflow: hidden;"
+      version="1.1"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+    >
+      <defs>
+        <symbol id="icon-facebook" viewBox="0 0 32 32">
+          <title>Facebook - Roberto Entringer</title>
+          <path
+            d="M19 6h5v-6h-5c-3.86 0-7 3.14-7 7v3h-4v6h4v16h6v-16h5l1-6h-6v-3c0-0.542 0.458-1 1-1z"
+          ></path>
+        </symbol>
+        <symbol id="icon-twitter" viewBox="0 0 32 32">
+          <title>Twitter - Roberto Entringer</title>
+          <path
+            d="M32 7.075c-1.175 0.525-2.444 0.875-3.769 1.031 1.356-0.813 2.394-2.1 2.887-3.631-1.269 0.75-2.675 1.3-4.169 1.594-1.2-1.275-2.906-2.069-4.794-2.069-3.625 0-6.563 2.938-6.563 6.563 0 0.512 0.056 1.012 0.169 1.494-5.456-0.275-10.294-2.888-13.531-6.862-0.563 0.969-0.887 2.1-0.887 3.3 0 2.275 1.156 4.287 2.919 5.463-1.075-0.031-2.087-0.331-2.975-0.819 0 0.025 0 0.056 0 0.081 0 3.181 2.263 5.838 5.269 6.437-0.55 0.15-1.131 0.231-1.731 0.231-0.425 0-0.831-0.044-1.237-0.119 0.838 2.606 3.263 4.506 6.131 4.563-2.25 1.762-5.075 2.813-8.156 2.813-0.531 0-1.050-0.031-1.569-0.094 2.913 1.869 6.362 2.95 10.069 2.95 12.075 0 18.681-10.006 18.681-18.681 0-0.287-0.006-0.569-0.019-0.85 1.281-0.919 2.394-2.075 3.275-3.394z"
+          ></path>
+        </symbol>
+        <symbol id="icon-github" viewBox="0 0 32 32">
+          <title>Github - Roberto Entringer</title>
+          <path
+            d="M16 0.395c-8.836 0-16 7.163-16 16 0 7.069 4.585 13.067 10.942 15.182 0.8 0.148 1.094-0.347 1.094-0.77 0-0.381-0.015-1.642-0.022-2.979-4.452 0.968-5.391-1.888-5.391-1.888-0.728-1.849-1.776-2.341-1.776-2.341-1.452-0.993 0.11-0.973 0.11-0.973 1.606 0.113 2.452 1.649 2.452 1.649 1.427 2.446 3.743 1.739 4.656 1.33 0.143-1.034 0.558-1.74 1.016-2.14-3.554-0.404-7.29-1.777-7.29-7.907 0-1.747 0.625-3.174 1.649-4.295-0.166-0.403-0.714-2.030 0.155-4.234 0 0 1.344-0.43 4.401 1.64 1.276-0.355 2.645-0.532 4.005-0.539 1.359 0.006 2.729 0.184 4.008 0.539 3.054-2.070 4.395-1.64 4.395-1.64 0.871 2.204 0.323 3.831 0.157 4.234 1.026 1.12 1.647 2.548 1.647 4.295 0 6.145-3.743 7.498-7.306 7.895 0.574 0.497 1.085 1.47 1.085 2.963 0 2.141-0.019 3.864-0.019 4.391 0 0.426 0.288 0.925 1.099 0.768 6.354-2.118 10.933-8.113 10.933-15.18 0-8.837-7.164-16-16-16z"
+          ></path>
+        </symbol>
+        <symbol id="icon-linkedin" viewBox="0 0 32 32">
+          <title>Linkedin - Roberto Entringer</title>
+          <path
+            d="M12 12h5.535v2.837h0.079c0.77-1.381 2.655-2.837 5.464-2.837 5.842 0 6.922 3.637 6.922 8.367v9.633h-5.769v-8.54c0-2.037-0.042-4.657-3.001-4.657-3.005 0-3.463 2.218-3.463 4.509v8.688h-5.767v-18z"
+          ></path>
+          <path d="M2 12h6v18h-6v-18z"></path>
+          <path d="M8 7c0 1.657-1.343 3-3 3s-3-1.343-3-3c0-1.657 1.343-3 3-3s3 1.343 3 3z"></path>
+        </symbol>
+        <symbol id="icon-stackoverflow" viewBox="0 0 32 32">
+          <title>Stackoverflow - Roberto Entringer</title>
+          <path
+            d="M32 20v12h-32v-12h4v8h24v-8zM6 22h20v4h-20zM6.473 17.671l0.866-3.905 19.526 4.328-0.866 3.905zM8.739 9.642l1.69-3.625 18.126 8.452-1.69 3.625zM30.991 11.296l-2.435 3.173-15.867-12.175 1.761-2.294h1.82z"
+          ></path>
+        </symbol>
+        <symbol id="icon-wordpress" viewBox="0 0 32 32">
+          <title>Wordpress - Roberto Entringer</title>
+          <path
+            d="M4 16c0 4.626 2.76 8.624 6.763 10.518l-5.724-15.274c-0.666 1.453-1.039 3.062-1.039 4.756zM24.101 15.41c0-1.445-0.533-2.445-0.989-3.223-0.608-0.963-1.179-1.778-1.179-2.741 0-1.074 0.836-2.074 2.015-2.074 0.053 0 0.104 0.006 0.155 0.009-2.135-1.905-4.979-3.069-8.103-3.069-4.192 0-7.881 2.095-10.026 5.268 0.282 0.009 0.547 0.014 0.772 0.014 1.255 0 3.198-0.149 3.198-0.149 0.647-0.037 0.723 0.889 0.077 0.963 0 0-0.65 0.074-1.373 0.111l4.37 12.66 2.626-7.671-1.869-4.989c-0.646-0.037-1.259-0.111-1.259-0.111-0.647-0.037-0.571-1 0.076-0.963 0 0 1.981 0.149 3.16 0.149 1.255 0 3.198-0.149 3.198-0.149 0.647-0.037 0.723 0.889 0.076 0.963 0 0-0.651 0.074-1.373 0.111l4.337 12.563 1.197-3.895c0.518-1.617 0.913-2.778 0.913-3.778zM16.211 17.022l-3.601 10.189c1.075 0.308 2.212 0.476 3.39 0.476 1.397 0 2.738-0.235 3.985-0.663-0.032-0.050-0.062-0.103-0.086-0.161l-3.688-9.842zM26.53 10.393c0.052 0.372 0.081 0.771 0.081 1.202 0 1.185-0.228 2.519-0.913 4.186l-3.665 10.321c3.568-2.026 5.967-5.79 5.967-10.102 0-2.032-0.533-3.943-1.47-5.607zM16 0c-8.837 0-16 7.163-16 16s7.163 16 16 16 16-7.163 16-16-7.163-16-16-16zM16 30c-7.732 0-14-6.268-14-14s6.268-14 14-14 14 6.268 14 14-6.268 14-14 14z"
+          ></path>
+        </symbol>
+        <symbol id="icon-bullhorn" viewBox="0 0 32 32">
+          <title>Newsletter</title>
+          <path
+            d="M32 13.414c0-6.279-1.837-11.373-4.109-11.413 0.009-0 0.018-0.001 0.027-0.001h-2.592c0 0-6.088 4.573-14.851 6.367-0.268 1.415-0.438 3.102-0.438 5.047s0.171 3.631 0.438 5.047c8.763 1.794 14.851 6.367 14.851 6.367h2.592c-0.009 0-0.018-0.001-0.027-0.001 2.272-0.040 4.109-5.134 4.109-11.413zM27.026 23.102c-0.293 0-0.61-0.304-0.773-0.486-0.395-0.439-0.775-1.124-1.1-1.979-0.727-1.913-1.127-4.478-1.127-7.223s0.4-5.309 1.127-7.223c0.325-0.855 0.705-1.54 1.1-1.979 0.163-0.182 0.48-0.486 0.773-0.486s0.61 0.304 0.773 0.486c0.395 0.439 0.775 1.124 1.1 1.979 0.727 1.913 1.127 4.479 1.127 7.223s-0.4 5.309-1.127 7.223c-0.325 0.855-0.705 1.54-1.1 1.979-0.163 0.181-0.48 0.486-0.773 0.486zM7.869 13.414c0-1.623 0.119-3.201 0.345-4.659-1.48 0.205-2.779 0.323-4.386 0.323-2.096 0-2.096 0-2.096 0l-1.733 2.959v2.755l1.733 2.959c0 0 0 0 2.096 0 1.606 0 2.905 0.118 4.386 0.323-0.226-1.458-0.345-3.036-0.345-4.659zM11.505 20.068l-4-0.766 2.558 10.048c0.132 0.52 0.648 0.782 1.146 0.583l3.705-1.483c0.498-0.199 0.698-0.749 0.444-1.221l-3.853-7.161zM27.026 17.148c-0.113 0-0.235-0.117-0.298-0.187-0.152-0.169-0.299-0.433-0.424-0.763-0.28-0.738-0.434-1.726-0.434-2.784s0.154-2.046 0.434-2.784c0.125-0.33 0.272-0.593 0.424-0.763 0.063-0.070 0.185-0.187 0.298-0.187s0.235 0.117 0.298 0.187c0.152 0.169 0.299 0.433 0.424 0.763 0.28 0.737 0.434 1.726 0.434 2.784s-0.154 2.046-0.434 2.784c-0.125 0.33-0.272 0.593-0.424 0.763-0.063 0.070-0.185 0.187-0.298 0.187z"
+          ></path>
+        </symbol>
+        <symbol id="icon-profile" viewBox="0 0 32 32">
+          <title>CV - Curriculum Vitae - Roberto Entringer</title>
+          <path
+            d="M27 0h-24c-1.65 0-3 1.35-3 3v26c0 1.65 1.35 3 3 3h24c1.65 0 3-1.35 3-3v-26c0-1.65-1.35-3-3-3zM26 28h-22v-24h22v24zM8 18h14v2h-14zM8 22h14v2h-14zM10 9c0-1.657 1.343-3 3-3s3 1.343 3 3c0 1.657-1.343 3-3 3s-3-1.343-3-3zM15 12h-4c-1.65 0-3 0.9-3 2v2h10v-2c0-1.1-1.35-2-3-2z"
+          ></path>
+        </symbol>
+      </defs>
+    </svg>
+    <!-- background video -->
+    <video playsinline autoplay muted loop>
+      <source src="assets/video/video.webm" type="video/webm" />
+      <source src="assets/video/video.mp4" type="video/mp4" />
+      <source src="assets/video/video.ogv" type="video/ogg" />
+    </video>
+    <script>
+      /*eslint-disable */
+      ;(function(i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r
+        ;(i[r] =
+          i[r] ||
+          function() {
+            ;(i[r].q = i[r].q || []).push(arguments)
+          }),
+          (i[r].l = 1 * new Date())
+        ;(a = s.createElement(o)), (m = s.getElementsByTagName(o)[0])
+        a.async = 1
+        a.src = g
+        m.parentNode.insertBefore(a, m)
+      })(window, document, "script", "https://www.google-analytics.com/analytics.js", "ga")
+      ga("create", "UA-99139527-1", "auto")
+      ga("send", "pageview")
+      var trackEl = document.querySelectorAll(".ga-track")
+      Array.prototype.forEach.call(trackEl, function(el) {
+        el.onclick = function() {
+          var elCategory = this.getAttribute("title")
+          var elAction = "click"
+          var elLabel = this.getAttribute("href")
+          ga("send", "event", elCategory, elAction, elLabel)
+        }
+      })
+    </script>
+  </body>
+</html>
