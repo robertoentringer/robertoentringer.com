@@ -1,0 +1,36 @@
+{
+  "private": true,
+  "name": "robertoentringer.com",
+  "version": "1.0.0",
+  "description": "Website robertoentringer.com",
+  "main": "./src/index.html",
+  "scripts": {
+    "serve": "servor src index.html",
+    "now:prod": "now --target production && open https://robertoentringer.com",
+    "now:staging": "now --target staging && open https://robertoentringercom.rentringer.now.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robertoentringer/robertoentringer.com.git"
+  },
+  "keywords": [
+    "website",
+    "portfolio",
+    "cv",
+    "contact",
+    "roberto-entringer"
+  ],
+  "author": "Roberto Entringer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robertoentringer/robertoentringer.com/issues"
+  },
+  "homepage": "https://github.com/robertoentringer/robertoentringer.com#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "prettier": "^1.16.4",
+    "servor": "^2.0.3"
+  }
+}
