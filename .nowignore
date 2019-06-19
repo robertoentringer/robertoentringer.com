@@ -2,6 +2,9 @@ node_modules/
 .eslintrc.js
 .gitignore
 .nowignore
+LICENSE
 now.json
 package-lock.json
 package.json
+README.md
+screenshot.png
