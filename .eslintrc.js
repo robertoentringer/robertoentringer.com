@@ -1,20 +1,10 @@
 module.exports = {
-  env: {
-    browser: true,
-    es6: true,
-  },
+  env: { browser: true, es6: true },
   extends: ["eslint:recommended", "plugin:prettier/recommended"],
-  globals: {
-    Atomics: "readonly",
-    SharedArrayBuffer: "readonly",
-  },
-  parserOptions: {
-    ecmaVersion: 2018,
-    sourceType: "module",
-  },
+  parserOptions: { ecmaVersion: 2018 },
   plugins: ["prettier", "html"],
   rules: {
-    "prettier/prettier": ["error", { semi: false, singleQuote: false }],
-    "no-console": "off",
-  },
+    "prettier/prettier": ["error", { semi: false, printWidth: 100, parser: "babel" }],
+    "comma-dangle": ["error", "never"]
+  }
 }
