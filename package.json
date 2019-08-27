@@ -6,8 +6,8 @@
   "main": "./src/index.html",
   "scripts": {
     "lint": "eslint --fix src/**/*.{js,html}",
-    "now:prod": "now --target production && open https://robertoentringer.com",
-    "now:staging": "now --target staging && open https://robertoentringercom.rentringer.now.sh"
+    "now:prod": "now --prod && open https://robertoentringer.com",
+    "now:staging": "now && open https://robertoentringercom.rentringer.now.sh"
   },
   "repository": {
     "type": "git",
