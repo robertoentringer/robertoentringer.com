@@ -1,4 +1,4 @@
-const cacheName = "ren-v1"
+const cacheName = "21-oct-2019"
 const urlsToCache = ["/", "/manifest.json"]
 
 self.addEventListener("install", e =>
