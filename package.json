@@ -5,7 +5,7 @@
   "description": "Website robertoentringer.com",
   "main": "./src/index.html",
   "scripts": {
-    "lint": "eslint --fix src/**/*.{js,html}",
+    "lint": "eslint --fix public/**/*.{js,html}",
     "vercel:dev": "vercel dev",
     "vercel:prod": "vercel --prod",
     "vercel:staging": "vercel"
