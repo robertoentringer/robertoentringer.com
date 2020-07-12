@@ -6,8 +6,9 @@
   "main": "./src/index.html",
   "scripts": {
     "lint": "eslint --fix src/**/*.{js,html}",
-    "now:prod": "now --prod && open https://robertoentringer.com",
-    "now:staging": "now && open https://robertoentringercom.rentringer.now.sh"
+    "vercel:dev": "vercel dev",
+    "vercel:prod": "vercel --prod",
+    "vercel:staging": "vercel"
   },
   "repository": {
     "type": "git",
