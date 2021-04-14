@@ -2,3 +2,4 @@ User-agent: *
 Disallow:
 Allow:
 Sitemap: https://robertoentringer.com/sitemap.xml
+Sitemap: https://robertoentringer.com/sitemap.txt

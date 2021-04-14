@@ -5,6 +5,7 @@
   "description": "Website robertoentringer.com",
   "main": "./src/index.html",
   "scripts": {
+    "sitemap": "static-sitemap-cli https://robertoentringer.dev -s -v -r public -m '**/*{.html,.pdf}' -m '!**/*Portfolio*' -p '**/index.html=1' '**/*.pdf=0.80'",
     "lint": "eslint --fix public/**/*.{js,html}",
     "vercel:dev": "vercel dev",
     "vercel:prod": "vercel --prod",
@@ -28,10 +29,13 @@
   },
   "homepage": "https://github.com/robertoentringer/robertoentringer.com#readme",
   "devDependencies": {
-    "eslint": "^7.4.0",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-html": "^6.0.2",
-    "eslint-plugin-prettier": "^3.1.4",
-    "prettier": "^2.0.5"
+    "eslint": "^7.24.0",
+    "eslint-config-prettier": "^8.2.0",
+    "eslint-plugin-html": "^6.1.2",
+    "eslint-plugin-prettier": "^3.3.1",
+    "prettier": "^2.2.1"
+  },
+  "dependencies": {
+    "static-sitemap-cli": "^1.4.2"
   }
 }

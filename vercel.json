@@ -1,0 +1,12 @@
+{
+  "github": {
+    "enabled": false
+  },
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "rewrites": [
+    { "source": "/portfolio", "destination": "/assets/docs/ENTRINGER-Roberto-Portfolio.pdf" },
+    { "source": "/cv", "destination": "/assets/docs/ENTRINGER-Roberto-CV.pdf" },
+    { "source": "/curriculum", "destination": "/assets/docs/ENTRINGER-Roberto-CV.pdf" }
+  ]
+}
